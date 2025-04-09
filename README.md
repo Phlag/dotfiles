@@ -3,7 +3,7 @@
 ## Installation
 1. Clone the repository:
 ```bash
-cd ~/;
+cd ~/
 git clone https://github.com/Phlag/dotfiles.git
 ```
 2. Create symlinks for the configuration files:
