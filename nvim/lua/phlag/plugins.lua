@@ -58,4 +58,10 @@ return {
     ---@type render.md.UserConfig
     opts = {},
   },
+  {
+    'eldritch-theme/eldritch.nvim',
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
 }
