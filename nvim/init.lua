@@ -610,6 +610,18 @@ require('lazy').setup({
         html = {},
         cssls = {},
         eslint = {},
+        ts_ls = {
+          init_options = {
+            plugins = { -- I think this was my breakthrough that made it work
+              {
+                name = '@vue/typescript-plugin',
+                location = '/home/phlag/.nvm/versions/node/v23.11.0/lib/node_modules/@vue/language-server',
+                languages = { 'vue' },
+              },
+            },
+          },
+          filetypes = { 'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue' },
+        },
         volar = {},
         lua_ls = {
           -- cmd = { ... },
